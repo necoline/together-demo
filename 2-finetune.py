@@ -21,7 +21,7 @@ resp = client.fine_tuning.create(
     training_file=fileId,
     n_epochs=3,
     learning_rate=1e-5,
-    wandb_api_key=os.environ.get("WANDB_API_KEY"),
+    # wandb_api_key=os.environ.get("WANDB_API_KEY"),
 )
 
 print(resp)
